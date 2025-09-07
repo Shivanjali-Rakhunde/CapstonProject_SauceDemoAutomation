@@ -3,17 +3,15 @@
 <suite thread-count="2" parallel="tests" name="Failed suite [SauceDemo Test Suite]">
   <test thread-count="2" parallel="tests" name="UI Tests(failed)">
     <classes>
-      <class name="com.saucedemo.tests.TestCheckoutPage">
+      <class name="com.saucedemo.tests.TestLogoutPage">
         <methods>
+          <include name="logoutWorks"/>
           <include name="tearDown"/>
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
           <include name="setUp"/>
-          <include name="completeCheckoutFlow"/>
-          <include name="cannotCheckoutWithEmptyCart"/>
-          <include name="checkoutShowsCorrectConfirmationMessage"/>
         </methods>
-      </class> <!-- com.saucedemo.tests.TestCheckoutPage -->
+      </class> <!-- com.saucedemo.tests.TestLogoutPage -->
     </classes>
   </test> <!-- UI Tests(failed) -->
 </suite> <!-- Failed suite [SauceDemo Test Suite] -->
