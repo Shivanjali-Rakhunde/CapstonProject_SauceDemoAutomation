@@ -9,7 +9,8 @@
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
           <include name="setUp"/>
-          <include name="cannotCheckoutWithEmptyCart"/>
+          <include name="completeCheckoutFlow"/>
+          <include name="checkoutShowsCorrectConfirmationMessage"/>
         </methods>
       </class> <!-- com.saucedemo.tests.TestCheckoutPage -->
     </classes>
